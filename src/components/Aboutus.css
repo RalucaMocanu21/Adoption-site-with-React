@@ -1,0 +1,69 @@
+/* Aboutus.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.about-us {
+  text-align: center;
+  border: 2px solid #333; /* Add a border around the content */
+  padding: 20px; /* Add padding to the content */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.about-us h1 {
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.founders,
+.history {
+  margin-top: 20px;
+}
+
+.pet-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pet-image img {
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Center the image within its container */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style for the footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
